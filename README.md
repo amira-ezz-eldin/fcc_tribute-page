@@ -2,7 +2,7 @@
 
 ## Description
 
-View a live demo at [Tribute Page]()
+View a live demo at [Tribute Page](https://aezz4007.github.io/fcc_tribute-page/)
 
 This project is a part of the [Free Code Camp (FCC)](https://www.freecodecamp.org) "Responsive Web Design" certificate requirements.
 
