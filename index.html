@@ -1,43 +1,631 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css"> 
-    <title>Tribute Page</title>
+    <meta charset="UTF-8" />
+    <meta
+      Description="A page dedicated to the memory of a very admired person. This person is Thomas Edison"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Thomas Edison</title>
   </head>
   <body>
+    <header>
+      <h1 id="title">Thomas Edison</h1> 
+    </header>
     <main id="main">
-      <h1 id="title" class="center">Dr. Norman Borlaug</h1>
-      <p class="center">The man who saved a billion lives</p>
-      <figure id="img-div">
-        <img id="image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg" alt="Dr. Norman Borlaug seen standing in Mexican wheat field with a group of biologists">
-        <figcaption id="img-caption" class="center">Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.</figcaption>
+    <figure id="img-div">
+        <img
+          id="image"
+          src="https://i.postimg.cc/fWHr4B10/edison.jpg"
+          alt="Thomas Edison"
+        />
+        <figcaption id="img-caption">
+          Thomas Edison looking at a lamp
+        </figcaption>
       </figure>
-      <section id="tribute-info">
-        <h2 class="center">Here's a time line of Dr. Borlaug's life:</h2>
-        <ul>
-<li><span class="bold">1914</span> - Born in Cresco, Iowa</li>
-<li><span class="bold">1933</span> - Leaves his family's farm to attend the University of Minnesota, thanks to a Depression era program known as the "National Youth Administration"</li>
-<li><span class="bold">1935</span> - Has to stop school and save up more money. Works in the Civilian Conservation Corps, helping starving Americans. "I saw how food changed them", he said. "All of this left scars on me."</li>
-<li><span class="bold">1937</span> - Finishes university and takes a job in the US Forestry Service</li>
-<li><span class="bold">1938</span> - Marries wife of 69 years Margret Gibson. Gets laid off due to budget cuts. Inspired by Elvin Charles Stakman, he returns to school study under Stakman, who teaches him about breeding pest-resistent plants.</li>
-<li><span class="bold">1941</span> - Tries to enroll in the military after the Pearl Harbor attack, but is rejected. Instead, the military asked his lab to work on waterproof glue, DDT to control malaria, disinfectants, and other applied science.</li>
-<li><span class="bold">1942</span> - Receives a Ph.D. in Genetics and Plant Pathology</li>
-<li><span class="bold">1944</span> - Rejects a 100% salary increase from Dupont, leaves behind his pregnant wife, and flies to Mexico to head a new plant pathology program. Over the next 16 years, his team breeds 6,000 different strains of disease resistent wheat - including different varieties for each major climate on Earth.</li>
-<li><span class="bold">1945</span> - Discovers a way to grown wheat twice each season, doubling wheat yields</li>
-<li><span class="bold">1953</span> - crosses a short, sturdy dwarf breed of wheat with a high-yeidling American breed, creating a strain that responds well to fertilizer. It goes on to provide 95% of Mexico's wheat.</li>
-<li><span class="bold">1962</span> - Visits Delhi and brings his high-yielding strains of wheat to the Indian subcontinent in time to help mitigate mass starvation due to a rapidly expanding population</li>
-<li><span class="bold">1970</span> - receives the Nobel Peace Prize</li>
-<li><span class="bold">1983</span> - helps seven African countries dramatically increase their maize and sorghum yields</li>
-<li><span class="bold">1984</span> - becomes a distinguished professor at Texas A&M University</li>
-<li><span class="bold">2005</span> - states "we will have to double the world food supply by 2050." Argues that genetically modified crops are the only way we can meet the demand, as we run out of arable land. Says that GM crops are not inherently dangerous because "we've been genetically modifying plants and animals for a long time. Long before we called it science, people were selecting the best breeds."</li>
-<li><span class="bold">2009</span> - dies at the age of 95.</li>
-</ul>
-<blockquote><p>Borlaug's life and achievement are testimony to the far-reaching contribution that one man's towering intellect, persistence and scientific vision can make to human peace and progress.</p>
-<cite>-- Indian Prime Minister Manmohan Singh</cite></blockquote>
-      </section>
-      <p class="bold center">If you have time, you should read more about this incredible human being on his <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Norman_Borlaug">Wikipedia entry</a>.</p> 
+      <article id="biography">
+        <h2>Biography</h2>
+        
+        <p>
+          Inventor Thomas Alva Edison profoundly influenced modern life through
+          inventions such as the incandescent light bulb, the phonograph, and
+          the motion picture camera. During his lifetime, he acquired 1,093
+          patents, and marketed many of his inventions to the public.
+        </p>
+      </article>
+      <article id="tribute-info">
+        <h2>Timeline</h2>
+        <section>
+          <h3>1847 - 1879</h3>
+          <div class="year-info">
+            <p class="year">1847</p>
+            <ul class="info">
+              <li>Thomas Alva Edison born on February 11 in Milan, Ohio.</li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1854</p>
+            <ul class="info">
+              <li>Edison's family moves to Port Huron, Michigan.</li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1859</p>
+            <ul class="info">
+              <li>
+                Edison takes job selling newspapers and candy on the Grand Trunk
+                Railway.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1862</p>
+            <ul class="info">
+              <li>Edison begins work as a telegraph operator in Port Huron.</li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1863</p>
+            <ul class="info">
+              <li>
+                Edison obtains telegraph job for the Grand Trunk Railway in
+                Ontario.
+              </li>
+              <li>
+                Edison returns to the U.S. in the fall and goes from city to
+                city as a telegraph operator.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1869</p>
+            <ul class="info">
+              <li>
+                Edison arrives in New York City and eventually gets job at Laws'
+                Gold Indicator Co. after fixing the company's stock ticker.
+              </li>
+              <li>
+                Edison receives patent in June for his first invention, an
+                electric vote recorder.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1870</p>
+            <ul class="info">
+              <li>Edison opens his first workshop in Newark, New Jersey.</li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1871</p>
+            <ul class="info">
+              <li>Edison marries Mary Stilwell on December 25.</li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1873</p>
+            <ul class="info">
+              <li>Edison's daughter, Marion Estelle ("Dot"), is born.</li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1876</p>
+            <ul class="info">
+              <li>
+                Edison moves to Menlo Park, New Jersey, and establishes
+                laboratory.
+              </li>
+              <li>
+                Edison's son, Thomas Alva, Jr. ("Dash"), is born on January 10.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1877</p>
+            <ul class="info">
+              <li>
+                Edison invents carbon telephone transmitter, extending the
+                clarity and range of the telephone.
+              </li>
+              <li>
+                Edison develops tin foil cylinder phonograph; files patent for
+                it on December 24 which is awarded on February 19, 1878.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1878</p>
+            <ul class="info">
+              <li>Edison Speaking Phonograph Co. incorporated April 24.</li>
+              <li>Edison's son, William Leslie, is born on October 26.</li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1878-79</p>
+            <ul class="info">
+              <li>
+                Edison devises an electric incandescent light bulb that lasts
+                for more than 13 hours.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1879</p>
+            <ul class="info">
+              <li>Organizes the Edison Ore Milling Company.</li>
+            </ul>
+          </div>
+        </section>
+        <hr />
+        <section>
+          <h3>1880-1889</h3>
+          <div class="year-info">
+            <p class="year">1880</p>
+            <ul class="info">
+              <li>
+                Edison discovers phenomenon which is later termed the "Edison
+                Effect".
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1881</p>
+            <ul class="info">
+              <li>
+                Edison creates the Edison Electric Lamp Co., the Edison Machine
+                Works and other companies to produce his electric lighting
+                system.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1882</p>
+            <ul class="info">
+              <li>
+                Edison opens a commercial electric station in New York City with
+                approximately 85 customers.
+              </li>
+              <li>
+                The Menlo Park laboratory is closed, and another instituted in
+                New York City.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1884</p>
+            <ul class="info">
+              <li>Edison's wife, Mary, dies on August 9.</li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1886</p>
+            <ul class="info">
+              <li>
+                Patent awarded to Chichester A. Bell and Charles Sumner Tainter
+                for their wax cylinder graphophone; Edison later refuses to
+                collaborate with them on the invention.
+              </li>
+              <li>Edison marries Mina Miller on February 24.</li>
+              <li>Moves his laboratory to East Newark, New Jersey.</li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1887</p>
+            <ul class="info">
+              <li>Edison develops the New Phonograph, using a wax cylinder.</li>
+              <li>Edison Phonograph Co. formed in October.</li>
+              <li>
+                Edison moves to a larger and more modern laboratory in West
+                Orange, New Jersey.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1888</p>
+            <ul class="info">
+              <li>
+                Edison meets Eadweard Muybridge, who shows him his
+                zoopraxiscope; Edison sets William K. L. Dickson and other
+                assistants to work to make a Kinetoscope, "an instrument which
+                does for the Eye what the phonograph does for the Ear".
+              </li>
+              <li>
+                Improved Phonograph introduced, followed by the Perfected
+                Phonograph.
+              </li>
+              <li>Edison's daughter, Madeleine, is born on May 31.</li>
+              <li>
+                Jesse H. Lippincott assumes control of phonograph companies by
+                forming the North American Phonograph Co. on July 14; leases
+                phonographs as dictation machines.
+              </li>
+              <li>
+                Edison files his first caveat (a Patent Office document in which
+                one declares his work on a particular invention in anticipation
+                of filing a patent application) on the Kinetoscope and
+                Kinetograph on October 8; William Kennedy Laurie Dickson
+                assigned to work on project.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1889</p>
+            <ul class="info">
+              <li>
+                Edison produces dolls with tiny cylinders inside to make them
+                talk for the Edison Phonograph Toy Manufacturing Co.; project
+                ceases in March 1891.
+              </li>
+              <li>Edison General Electric formed in April.</li>
+              <li>Edison Manufacturing Co. is organized.</li>
+            </ul>
+          </div>
+        </section>
+        <hr />
+        <section>
+          <h3>1890-1899</h3>
+          <div class="year-info">
+            <p class="year">1890</p>
+            <ul class="info">
+              <li>
+                Lippincott becomes ill and loses control of North American
+                Phonograph Co. to Edison, its principal creditor.
+              </li>
+              <li>Edison's son, Charles, is born on August 3.</li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1891</p>
+            <ul class="info">
+              <li>
+                A peep-hole viewing machine shown by Edison on May 20 to
+                participants from the National Federation of Women's Clubs.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1892</p>
+            <ul class="info">
+              <li>
+                Edison General Electric and Thomson-Houston merge into General
+                Electric.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1893</p>
+            <ul class="info">
+              <li>
+                Construction on a film studio known to Edison employees as the
+                "Black Maria" completed in February; earliest Edison motion
+                pictures were filmed there.
+              </li>
+              <li>
+                First public demonstration of Edison's 1 1/2" system of
+                Kinetoscope at the Brooklyn Institute on May 9.
+              </li>
+              <li>
+                Copyright registered to William K. L. Dickson for sample
+                kinetoscope records on October 6.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1894</p>
+            <ul class="info">
+              <li>
+                Edison declares bankruptcy for the North American Phonograph Co.
+              </li>
+              <li>
+                Applications submitted to U.S. Patent Office for the Kinetograph
+                and the Kinetoscope.
+              </li>
+              <li>
+                First Kinetoscope parlor opened in midtown Manhattan on April
+                14.
+              </li>
+              <li>
+                Edison puts the Edison Manufacturing Co. in charge of the
+                manufacture and sale of Kinetoscopes and films on April 1.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1894-95</p>
+            <ul class="info">
+              <li>
+                Edison and Dickson experiment to synchronize sound with film;
+                the Kinetophone is invented which loosely synchronizes a
+                Kinetoscope image with a cylinder phonograph.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1895</p>
+            <ul class="info">
+              <li>The Edison Spring Motor Phonograph appears.</li>
+              <li>Dickson leaves Edison's employ on April 2.</li>
+              <li>
+                C. Francis Jenkins and Thomas Armat demonstrate their
+                Phantoscope, a motion picture projector, in Atlanta, Georgia, in
+                late September to early October.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1896</p>
+            <ul class="info">
+              <li>
+                Edison forms the National Phonograph Co. with the purpose of
+                manufacturing phongraphs for home use on January 27.
+              </li>
+              <li>
+                Spring Motor Phonograph is released under aegis of the National
+                Phonograph Co., followed by the Edison Home Phonograph.
+              </li>
+              <li>
+                Edison negotiates in January with Raff & Gammon to manufacture
+                the Phantoscope which Armat presents as his own invention;
+                machine is renamed the Vitascope in February, and Edison's name
+                put on it.
+              </li>
+              <li>
+                Vitascope publicly exhibited at Koster & Bial's Music Hall on
+                April 23 to great acclaim.
+              </li>
+              <li>
+                The company begins practice of copyrighting its films on October
+                23 by sending short pieces of positive nitrate film from the
+                motion pictures to the Library of Congress.
+              </li>
+              <li>
+                Edison distances himself from agreement with Raff & Gammon;
+                introduces the Projecting Kinetoscope or Projectoscope on
+                November 30 in Harrisburg, Pennsylvania.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1897</p>
+            <ul class="info">
+              <li>Edison Standard Phonograph manufactured.</li>
+              <li>
+                Edison begins to send positive paper prints of motion pictures
+                for copyright deposit to the Library of Congress in August.
+              </li>
+              <li>
+                James White hired to head Kinetograph Department at the Edison
+                Manufacturing Co. in October.
+              </li>
+              <li>
+                Edison begins legal battles in December that continue for the
+                following year against other producers and exhibitors whom he
+                charges with infringement.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1898</p>
+            <ul class="info">
+              <li>
+                Spanish-American War occurs; Edison Company sends cameraman to
+                Cuba to film scenes of war.
+              </li>
+              <li>Edison's son, Theodore Miller, is born on July 10.</li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1899</p>
+            <ul class="info">
+              <li>Edison Concert Phonograph introduced.</li>
+            </ul>
+          </div>
+        </section>
+        <hr />
+        <section>
+          <h3>1900-1931</h3>
+          <div class="year-info">
+            <p class="year">1900</p>
+            <ul class="info">
+              <li>Edison Manufacturing Co. incorporated on May 5.</li>
+              <li>
+                Edwin S. Porter hired by Edison Co. in November to work with
+                film equipment; he later becomes the company's most famous
+                director.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1901</p>
+            <ul class="info">
+              <li>
+                Process for mass-producing duplicate wax cylinders put into
+                effect; they are known as Gold Moulded cylinders.
+              </li>
+              <li>
+                A new film studio for the Edison Co. in New York is completed in
+                January; this is the nation's first indoor, glass-enclosed
+                studio.
+              </li>
+              <li>
+                U.S. Circuit Court recognizes Edison's motion picture patent
+                claims in his suit in July; American Mutoscope & Biograph
+                Company appeals decision.
+              </li>
+              <li>
+                Edison cameras are present at Pan-American Exposition when
+                President McKinley is shot by an assassin.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1902</p>
+            <ul class="info">
+              <li>
+                Circuit Court's decision reversed on March 10 by Court of
+                Appeals, which essentially disallows Edison having a monopoly on
+                motion picture apparatus.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1903</p>
+            <ul class="info">
+              <li>
+                One of the most famous early films, The Great Train Robbery,
+                directed by Edwin S. Porter, is filmed during November.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1905</p>
+            <ul class="info">
+              <li>Business Phonograph introduced.</li>
+              <li>
+                Nickelodeons become popular in Chicago and later spread to other
+                urban areas.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1908</p>
+            <ul class="info">
+              <li>
+                Amberol Record introduced; the cylinder could play as long as
+                four minutes, twice as long as previous cylinders.
+              </li>
+              <li>
+                Association of Edison Licensees and Film Service Association
+                formed; Motion Picture Patents Co. formed from it later to
+                include Biograph licensees.
+              </li>
+              <li>
+                New Edison film studio opened in the Bronx, New York, June-July.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1909</p>
+            <ul class="info">
+              <li>Edwin S. Porter fired on November 10.</li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1910</p>
+            <ul class="info">
+              <li>Company reorganized into Thomas A. Edison, Inc.</li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1911</p>
+            <ul class="info">
+              <li>
+                Edison Disc Phonograph shown in public for the first time.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1912</p>
+            <ul class="info">
+              <li>Edison Disc Phonograph put on sale.</li>
+              <li>
+                Blue Amberol introduced, an unbreakable cylinder with superior
+                sound.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1913</p>
+            <ul class="info">
+              <li>
+                Kinetophone is introduced, which attempts to synchronize motion
+                pictures with a phonograph cylinder record.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1915</p>
+            <ul class="info">
+              <li>Kinetophone abandoned.</li>
+              <li>Tone tests for Diamond Discs introduced.</li>
+              <li>
+                Motion Picture Patents Co. found guilty of antitrust violation
+                on October 1.
+              </li>
+              <li>Edison named head of the Naval Consulting Board.</li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1917</p>
+            <ul class="info">
+              <li>
+                American involvement in World War I begins; Edison creates Army
+                and Navy Model of the Disc Phonograph.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1918</p>
+            <ul class="info">
+              <li>
+                Motion picture studio ceases production in February; studio sold
+                on March 30 to the Lincoln & Parker Film Co.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1926</p>
+            <ul class="info">
+              <li>
+                Edison resigns as president of Thomas A. Edison, Inc., and
+                becomes chairman of the board; his son, Charles takes over as
+                president.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1928</p>
+            <ul class="info">
+              <li>
+                Edison takes over Splitdorf-Bethlehem Electrical Co., a move
+                which allows him to manufacture radios.
+              </li>
+              <li>
+                Edison awarded Congressional gold metal for his many
+                contributions.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1929</p>
+            <ul class="info">
+              <li>
+                Edison makes programs for radio on long-playing discs; first
+                used by radio station WAAM of Newark, New Jersey, on April 4.
+              </li>
+              <li>
+                Edison Portable Disc Phonograph with New Edison Needle Records
+                introduced.
+              </li>
+              <li>
+                Orders given on October 21 to close the Edison disc business.
+              </li>
+            </ul>
+          </div>
+          <div class="year-info">
+            <p class="year">1931</p>
+            <ul class="info">
+              <li>Edison dies in West Orange on October 18.</li>
+            </ul>
+          </div>
+        </section>
+      </article>
+      <article id="reference">
+        <h2>Reference</h2>
+        <p>Please visit the <a href="https://www.loc.gov/collections/edison-company-motion-pictures-and-sound-recordings/articles-and-essays/timeline/" id="tribute-link" target="_blank">Library of Congress</a> website for more information.</p>
+      </article>
     </main>
+    <footer></footer>
   </body>
 </html>
