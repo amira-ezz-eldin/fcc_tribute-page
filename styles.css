@@ -1,35 +1,101 @@
+* {
+  box-sizing: border-box;
+}
 body {
-    font-family: Verdana, sans-serif;
-    font-size: 18px;
-    background-color: #f1f1f1;
-    line-height: 1.5em;
-  }
-  #tribute-info {
-    max-width: 50%;
-    margin: auto;
-    text-align: justify;
-  }
-  
-  p, li {
-    margin-bottom: 1em;
-  }
-  
-  blockquote, h2 {
-    margin: 2em auto;
-  }
-  #img-caption {
-    margin: 1em auto 1em auto;
-  }
-  .bold {
-    font-weight: bold;
-  }
-  
-  .center {
-    text-align: center;
-  }
-  #image {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    max-height: 100%;
-  }
+  font-family: Tahoma, sans-serif;
+  background-color: #555;
+  color: #eee;
+  line-height: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+header {
+  margin-bottom: 1rem;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+h2 {
+  background-color: #445;
+  color: #bbc;
+  padding-bottom:1rem;
+  margin: 0 auto;
+}
+
+h3 {
+  background-color: #bbc;
+  padding: 1rem;
+  margin: 0;
+}
+
+.year, .info {
+  margin: 0;
+}
+.year {
+  font-weight: 800;
+  width: 10%;
+}
+
+.info {
+  padding-left: 2rem;
+  width: 90%;
+}
+
+article {
+  width: 80%;
+  color: #444;
+  margin: 0 auto;
+  text-align: justify;
+  padding: 0;
+  border: solid 1rem #445;
+}
+
+#tribute-info {
+  margin-top: -1rem;
+}
+
+#biography, #reference {
+  background-color: #eee;
+}
+
+#reference p {
+  padding: 1rem;
+}
+
+#biography p, .year-info {
+  display: flex;
+  padding: 1rem;
+}
+
+.year-info:nth-child(odd) {
+  background-color: #eee;
+}
+
+.year-info:nth-child(even) {
+  background-color: #ddd;
+}
+
+hr {
+  background-color: #445;
+  height: 1rem;
+  border: none;
+  margin: 0;
+}
